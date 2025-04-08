@@ -30,7 +30,7 @@ it, simply add the following line to your Podfile:
 pod 'UIFadeLabel'
 ```
 
-If you want to use the latest features of UIOverlayView use normal external source dependencies.
+If you want to use the latest features of UIFadeLabel use normal external source dependencies.
 
 ```ruby
 pod 'UIFadeLabel', :git => 'https://github.com/Sfh03031/UIFadeLabel.git'
@@ -70,6 +70,19 @@ Second, use UIFadeLabel just like UILabel:
     }()
 
 ```
+you only need to focus on the following three attributes, or use the default settings
+
+```swift
+
+    // fade in duration
+    @IBInspectable public var appearDuration: CFTimeInterval = 1.0
+    // fade out duration
+    @IBInspectable public var disappearDuration: CFTimeInterval = 1.0
+    // need fade or not
+    @IBInspectable public var isFadeNeeded = true
+
+```
+
 It's that simple, enjoy it.
 
 ## Notice
