@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIFadeLabel'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'UIFadeLabel is a subclass of UILabel used to achieve the effect of gradually disappearing and appearing text.(UIFadeLabel是一个UILabel的子类，用以实现文字的渐隐渐现效果。)'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'Sfh03031' => 'sfh894645252@163.com' }
   s.source           = { :git => 'https://github.com/Sfh03031/UIFadeLabel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.swift_versions   = '5'
+  s.swift_versions   = '4'
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'UIFadeLabel/Classes/**/*'
