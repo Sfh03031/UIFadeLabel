@@ -92,7 +92,7 @@ UIFadeLabel is implemented internally using NSAttributedString and CADisplayLink
 
 ## Change log
 
-2025.04.8, 0.1.0
+2025.04.8, 0.1.1
 - Initial version(zh: 初始版本)
 
 ## Author
