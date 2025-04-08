@@ -1,0 +1,6 @@
+framework module Pods_UIFadeLabel_Tests {
+  umbrella header "Pods-UIFadeLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

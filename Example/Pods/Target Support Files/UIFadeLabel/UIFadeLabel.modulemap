@@ -1,0 +1,6 @@
+framework module UIFadeLabel {
+  umbrella header "UIFadeLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

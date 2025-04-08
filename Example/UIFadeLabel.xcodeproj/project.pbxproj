@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		042EAF3A500587E09E8A040A /* Pods-UIFadeLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIFadeLabel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UIFadeLabel_Tests/Pods-UIFadeLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2812B8E5F54DB7DFF69E5E25 /* Pods_UIFadeLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIFadeLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42369B9B2EE2B4743D11B162 /* UIFadeLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UIFadeLabel.podspec; path = ../UIFadeLabel.podspec; sourceTree = "<group>"; };
+		42369B9B2EE2B4743D11B162 /* UIFadeLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIFadeLabel.podspec; path = ../UIFadeLabel.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UIFadeLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIFadeLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* UIFadeLabel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIFadeLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		710BBED4DE20D168CF6CB36C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		710BBED4DE20D168CF6CB36C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8A7C8B159EC560ADF46C4226 /* Pods-UIFadeLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIFadeLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-UIFadeLabel_Tests/Pods-UIFadeLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9520D2802F1E1E11FEE69853 /* Pods-UIFadeLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIFadeLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-UIFadeLabel_Example/Pods-UIFadeLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A1484874787AF6E85338E1A3 /* Pods-UIFadeLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIFadeLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-UIFadeLabel_Example/Pods-UIFadeLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AF4805AFCF3945456B429951 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AF4805AFCF3945456B429951 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E93A707219FB71AF999B9F31 /* Pods_UIFadeLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIFadeLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				042EAF3A500587E09E8A040A /* Pods-UIFadeLabel_Tests.debug.xcconfig */,
 				8A7C8B159EC560ADF46C4226 /* Pods-UIFadeLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = FNZ84EXWE9;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = FNZ84EXWE9;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,7 +499,9 @@
 			baseConfigurationReference = 9520D2802F1E1E11FEE69853 /* Pods-UIFadeLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				INFOPLIST_FILE = UIFadeLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -512,7 +516,9 @@
 			baseConfigurationReference = A1484874787AF6E85338E1A3 /* Pods-UIFadeLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				INFOPLIST_FILE = UIFadeLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -526,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 042EAF3A500587E09E8A040A /* Pods-UIFadeLabel_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -535,6 +542,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,11 +556,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A7C8B159EC560ADF46C4226 /* Pods-UIFadeLabel_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = FNZ84EXWE9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
