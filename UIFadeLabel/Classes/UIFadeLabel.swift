@@ -6,6 +6,8 @@
 //  Copyright © 2025 CocoaPods. All rights reserved.
 //
 
+#if canImport(UIKit)
+
 import UIKit
 
 public class UIFadeLabel: UILabel {
@@ -54,14 +56,14 @@ public class UIFadeLabel: UILabel {
         
         displaylink = CADisplayLink.init(target: self, selector: #selector(update))
         displaylink?.isPaused = true
-        displaylink?.add(to: .current, forMode: .commonModes)
+        displaylink?.add(to: .current, forMode: .common)
     }
     
     required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    /// 更新富文本效果
+    /// update attributedText
     @objc func update() {
         let pastDuration = CACurrentMediaTime() - beginTime!
         if isAppearing {
@@ -102,7 +104,7 @@ public class UIFadeLabel: UILabel {
 
 extension UIFadeLabel {
     
-    /// 开始计算
+    /// change String to attributedString
     func toAttributedString(text: String) {
         tempValue = text
         if self.attributedText != nil {
@@ -117,7 +119,7 @@ extension UIFadeLabel {
         }
     }
     
-    /// 渐现
+    /// fade in
     func appear() {
         attributedString = NSMutableAttributedString.init(string: tempValue)
         
@@ -133,7 +135,7 @@ extension UIFadeLabel {
         calculateDuration(duration: appearDuration)
     }
     
-    /// 渐隐
+    /// fade out
     func disappear() {
         isDisappearing = true
         beginTime = CACurrentMediaTime()
@@ -142,7 +144,7 @@ extension UIFadeLabel {
         calculateDuration(duration: disappearDuration)
     }
     
-    /// 计算渐隐渐现的随机时间点
+    /// random timing
     func calculateDuration(duration: Double) {
         durationArray = []
         for _ in 0..<self.attributedString.length {
@@ -152,3 +154,5 @@ extension UIFadeLabel {
         }
     }
 }
+
+#endif

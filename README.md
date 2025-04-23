@@ -1,3 +1,5 @@
+# Example
+
 <div align="center" >
   <img width="30%" src="image/demo.gif" />
 </div>
@@ -85,12 +87,18 @@ you only need to focus on the following three attributes, or use the default set
 
 It's that simple, enjoy it.
 
+if you find any issue, please start a PR.
+
 ## Notice
 
 UIFadeLabel is implemented internally using NSAttributedString and CADisplayLink, so it does not support setting the property of `textAlignment`.
+
 (UIFadeLabel内部是使用NSAttributedString和CADisplayLink实现的，所以它不支持设置`textAlignment`属性)
 
 ## Change log
+
+2025.04.23, 0.1.2
+- Fix bug, add example gif(zh: 修复错误，增加示例gif)
 
 2025.04.8, 0.1.1
 - Initial version(zh: 初始版本)

@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - UIFadeLabel (0.1.0)
+  - UIFadeLabel (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  UIFadeLabel: fb95b7f016c373b0942a24751764ec813f0fdd5b
+  UIFadeLabel: 26414333f9baf4fb24200a1c7d9d15f633ff198f
 
-PODFILE CHECKSUM: 7063ef1dc2d255fc1a2eb194d7a3012f949e69b0
+PODFILE CHECKSUM: 66b729b9446f4b6c7215018382bc2e3b80a5218a
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.16.2
